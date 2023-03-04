@@ -34,7 +34,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     self._base_url = self._enforce_trailing_slash(URL(base_url))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <[AttributeError("'URL' object has no attribute '_uri_reference'") raised in repr()] URL object at 0x12376a7d0>
+self = <[AttributeError("'URL' object has no attribute '_uri_reference'") raised in repr()] URL object at 0x11b6428c0>
 url = None, kwargs = {}
 
     def __init__(
@@ -73,7 +73,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     self._base_url = self._enforce_trailing_slash(URL(base_url))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <[AttributeError("'URL' object has no attribute '_uri_reference'") raised in repr()] URL object at 0x1237ded10>
+self = <[AttributeError("'URL' object has no attribute '_uri_reference'") raised in repr()] URL object at 0x11b6b6e00>
 url = None, kwargs = {}
 
     def __init__(
@@ -112,7 +112,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     self._base_url = self._enforce_trailing_slash(URL(base_url))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <[AttributeError("'URL' object has no attribute '_uri_reference'") raised in repr()] URL object at 0x12388b640>
+self = <[AttributeError("'URL' object has no attribute '_uri_reference'") raised in repr()] URL object at 0x11b7676d0>
 url = None, kwargs = {}
 
     def __init__(
@@ -151,7 +151,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     self._base_url = self._enforce_trailing_slash(URL(base_url))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <[AttributeError("'URL' object has no attribute '_uri_reference'") raised in repr()] URL object at 0x1238822c0>
+self = <[AttributeError("'URL' object has no attribute '_uri_reference'") raised in repr()] URL object at 0x11b75a650>
 url = None, kwargs = {}
 
     def __init__(
@@ -190,7 +190,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     self._base_url = self._enforce_trailing_slash(URL(base_url))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <[AttributeError("'URL' object has no attribute '_uri_reference'") raised in repr()] URL object at 0x1238e7610>
+self = <[AttributeError("'URL' object has no attribute '_uri_reference'") raised in repr()] URL object at 0x11b7c3dc0>
 url = None, kwargs = {}
 
     def __init__(
@@ -229,7 +229,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     self._base_url = self._enforce_trailing_slash(URL(base_url))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <[AttributeError("'URL' object has no attribute '_uri_reference'") raised in repr()] URL object at 0x1239e6560>
+self = <[AttributeError("'URL' object has no attribute '_uri_reference'") raised in repr()] URL object at 0x11b8c18a0>
 url = None, kwargs = {}
 
     def __init__(
@@ -261,4 +261,4 @@ FAILED tests/api/test_cloud_endpoints.py::test_predict_is_up - TypeError: Inv...
 FAILED tests/api/test_cloud_endpoints.py::test_predict_is_dict - TypeError: I...
 FAILED tests/api/test_cloud_endpoints.py::test_predict_has_key - TypeError: I...
 FAILED tests/api/test_cloud_endpoints.py::test_cloud_api_predict - TypeError:...
-========================= 6 failed, 6 passed in 0.36s ==========================
+================== 6 failed, 6 passed, 112 warnings in 24.49s ==================
